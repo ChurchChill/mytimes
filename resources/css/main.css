@@ -1,0 +1,13 @@
+.Header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+
+.Logo {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: MediumAquamarine;
+}
