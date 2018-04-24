@@ -1,4 +1,4 @@
-.Header {
+.header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -7,11 +7,18 @@
   border-bottom: solid black;
   width: 100%;
   position: fixed;
-
+  justify-content: space-between;
 
 }
+.logosection {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: MediumAquamarine;
+  justify-content: space-around;
+}
 
-.Logo {
+.logo {
   display: flex;
   padding-left: 10px;
   padding-top: 5px;
@@ -20,8 +27,34 @@
 
 .links {
   display: inline-block;
-  padding-left: 1500px;
-  justify-content: space-around;
   color: black;
   word-spacing: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-right: 100px;
+
+}
+
+.main {
+  display: flex;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
 }
