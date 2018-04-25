@@ -39,11 +39,35 @@
 
 .main {
   display: flex;
+  position: absolute;
+  border: solid;
+  margin-top: 150px;
+
+
 }
 
 .column.large {
   display: flex;
   width: 630px;
+  flex-direction: column;
+  font-family: Georgia;
+}
+
+
+.motherone {
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+   height: 100%;
+   background-repeat: no-repeat;
+   align-items: center;
+}
+
+.orcacolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.burgercolumn {
+  display: flex;
   flex-direction: column;
 }
 
@@ -51,10 +75,25 @@
   display: flex;
   width: 300px;
   flex-direction: column;
+  font-family: Georgia;
+  margin-left: 20px;
 }
 
 .column.small {
   display: flex;
   width: 240px;
   flex-direction: column;
+}
+
+h1.imageone {
+  color: white;
+  display: flex;
+  margin-top: 80px;
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+p.news {
+  font-size: 17px;
+  color: black;
 }
